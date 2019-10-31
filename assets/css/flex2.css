@@ -1,0 +1,43 @@
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+*               section3
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.section3 {
+
+}
+
+.section3 .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-30px + 60px);
+  margin-left: -20px;
+}
+
+.section3 .container .item {
+  padding-left: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .section3 {
+
+  }
+  .section3 .container {
+
+  }
+  .section3 .container .item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .section3 {
+
+  }
+  .section3 .container {
+
+  }
+  .section3 .container .item {
+    width: 33.3333%;
+  }
+}

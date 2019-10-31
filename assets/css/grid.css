@@ -1,0 +1,50 @@
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+*               section4
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.section4 {
+
+}
+
+.section4 .container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  grid-gap: 30px 20px;
+}
+
+@media (min-width: 500px) {
+  .section4 {
+
+  }
+  .section4 .container {
+
+  }
+  .section2 .container .item {
+
+  }
+}
+
+.section2 .container .item {}
+@media (min-width: 720px) {
+  .section4 {
+
+  }
+  .section4 .container {
+
+  }
+  .section2 .container .item {
+
+  }
+}
+
+@media (min-width: 1000px) {
+  .section4 {
+
+  }
+  .section4 .container {
+
+  }
+  .section2 .container .item {
+
+  }
+}

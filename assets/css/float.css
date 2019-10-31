@@ -1,0 +1,46 @@
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+*               section1
+http://brm.io/jquery-match-height/
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.section1 {
+  padding-bottom: 50px;
+}
+
+.section1 .container {
+  overflow: hidden;
+  margin-top: calc(-30px + 60px);
+  margin-right: -20px;
+  padding-bottom: 50px;
+}
+
+.section1 .container .item {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+.section1 .container .item:last-of-type::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 500px) {
+  .section1 .container .item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .section1 .container .item {
+    width: 33.3333%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section1 .container .item {
+    width: 33.3333%;
+  }
+}

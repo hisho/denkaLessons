@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>カード系の並びの奴</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://use.typekit.net/rvr0dqy.css">
+  <!-- リセットとcardのcss -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- floatのcss -->
+  <link rel="stylesheet" href="./assets/css/float.css">
+  <!-- marginで作ったflexのcss -->
+  <link rel="stylesheet" href="./assets/css/flex1.css">
+  <!-- paddingで作ったflexのcss -->
+  <link rel="stylesheet" href="./assets/css/flex2.css">
+  <!-- gridで作った -->
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <!-- jQuery本体 -->
+  <script src="./assets/js/jquery.min.js" defer></script>
+  <!-- floatで作った場合の高さをあわせるjs -->
+  <script src="./assets/js/jquery-match-height.js" defer></script>
+  <!-- jquery-match-height.jsの設定が書いてあるjs -->
+  <script src="./assets/js/main.js" defer></script>
+  <!-- 高さをすべて揃えるjs -->
+  <!-- <script src="./assets/js/test.js" defer></script> -->
+</head>
+
+<body>
+  <main>
+    <div class="wrapper">
+      <section class="section1"><!-- float start -->
+        <h1>float</h1>
+        <ul class="container">
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+          <li class="item">
+            <div class="card"></div>
+          </li>
+        </ul>
+      </section><!-- float end. -->
+
+      <section class="section2"><!-- flex1 start -->
+        <h1>flex1</h1>
+        <ul class="container">
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+        </ul>
+      </section><!-- flex1 end. -->
+
+      <section class="section3"><!-- flex2 start -->
+        <h1>flex2</h1>
+        <ul class="container">
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+            <li class="item">
+              <div class="card"></div>
+            </li>
+        </ul>
+      </section><!-- flex2 end. -->
+
+      <section class="section4"><!-- grid start -->
+        <h1>grid</h1>
+        <ul class="container">
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+            <li class="item card"></li>
+        </ul>
+      </section><!-- grid end. -->
+
+    </div>
+  </main>
+  <script src="./card/data.js" defer></script><!-- カードのデータが入っているjs -->
+  <script src="./card/card.js" defer></script><!-- カードを吐き出すjs -->
+</body>
+
+</html>
