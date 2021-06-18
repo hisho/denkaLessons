@@ -1,7 +1,7 @@
 # denkaLessons
 でんかじゅく
 
-# [https://hishohub.github.io/denkaLessons/](https://hishohub.github.io/denkaLessons/)
+# [https://hisho.github.io/denkaLessons/](https://hisho.github.io/denkaLessons/)
 
 
 
